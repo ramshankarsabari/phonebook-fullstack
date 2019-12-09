@@ -1,0 +1,29 @@
+{
+  "name": "fs-3",
+  "version": "1.0.0",
+  "description": "A fullstack Phone book app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramshankarsabari/phonebook-fullstack.git"
+  },
+  "author": "Ramshankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramshankarsabari/phonebook-fullstack/issues"
+  },
+  "homepage": "https://github.com/ramshankarsabari/phonebook-fullstack#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
